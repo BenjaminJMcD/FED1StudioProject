@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="Images\pexels-archie-binamira-1187317.jpg" />
     <Content Include="Stylesheets\Stylesheet1.css" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
@@ -87,7 +88,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>

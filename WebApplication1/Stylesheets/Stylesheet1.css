@@ -16,7 +16,6 @@ header h3 {
 }
 
 nav a {
-    color: darkslateblue;
     font-weight: bold;
     text-decoration: none;
 }
@@ -27,7 +26,7 @@ nav a:hover {
     background-color: darkblue;
 }
 
-a:active {
+nav a:focus {
     color: black;
     text-decoration: underline;
 }
@@ -49,8 +48,26 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: .5em 1em;
+    padding: .3em 1em;
     display: block
+}
+
+#aboutUs img {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+#aboutUs h3, p {
+    float: right;
+    width: 78%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.clear {
+    clear: both;
 }
 
 article {
@@ -64,6 +81,10 @@ article {
 
 h3.headingStyle {
     text-decoration: underline;
+}
+
+h1.headingStyle {
+    text-align:center;
 }
 
 footer {
