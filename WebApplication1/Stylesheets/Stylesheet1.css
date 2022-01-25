@@ -52,19 +52,70 @@ nav ul li a {
     display: block
 }
 
+.headingStyle {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 #aboutUs img {
     float: left;
     width: 20%;
     height: auto;
 }
 
-#aboutUs h3, p {
+h3#aboutUs {
+    float: right;
+    width: 78%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 8px;
+
+}p#aboutUs {
     float: right;
     width: 78%;
     height: auto;
     margin-left: 5px;
     margin-right: 8px;
 }
+
+ .topSet {
+     display: inline-block;
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+
+ .bottomSet {
+     display: inline-block;
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+
+ .topSet img {
+     float: left;
+     width: 50%;
+     height: auto;
+ }
+
+ .topSet p {
+     float: right;
+     width: 45%;
+     height: auto;
+     margin-right: 8px;
+ }
+
+ .bottomSet img {
+     float: right;
+     width: 50%;
+     height: auto;
+ }
+
+ .bottomSet p {
+     float: left;
+     width: 45%;
+     height: auto;
+     margin-left: 8px;
+ }
 
 .clear {
     clear: both;
@@ -84,7 +135,7 @@ h3.headingStyle {
 }
 
 h1.headingStyle {
-    text-align:center;
+    text-align: center;
 }
 
 footer {
@@ -94,5 +145,20 @@ footer {
     background: -webkit-linear-gradient(-45deg, rgba(255,183,107,1) 0%,rgba(255,124,0,1) 79%,rgba(255,127,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, rgba(255,183,107,1) 0%,rgba(255,124,0,1) 79%,rgba(255,127,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    color: darkslategray;
+    color: black;
+    font-style: italic;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+footer h4 {
+    float: left;
+}
+
+div.iconsFooter {
+    margin: 8px;
+    float: right;
+    width: 300px;
 }

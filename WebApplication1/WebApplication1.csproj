@@ -69,7 +69,12 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="Images\birthchartbook.jpg" />
+    <Content Include="Images\facebook-64-icon.png" />
+    <Content Include="Images\instagram-64-icon.png" />
+    <Content Include="Images\palmistryintro.jpg" />
     <Content Include="Images\pexels-archie-binamira-1187317.jpg" />
+    <Content Include="Images\twitter-64-icon.png" />
     <Content Include="Stylesheets\Stylesheet1.css" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
