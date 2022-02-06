@@ -69,11 +69,20 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
-    <Content Include="Images\birthchartbook.jpg" />
+    <Content Include="favicon-16x16.png" />
+    <Content Include="Images\Astrology.jpg" />
     <Content Include="Images\facebook-64-icon.png" />
+    <Content Include="Images\Gemstones.jpg" />
+    <Content Include="Images\Herbology.jpg" />
+    <Content Include="Images\HomePage1.jpg" />
+    <Content Include="Images\horoscope-coin-180x180.png" />
     <Content Include="Images\instagram-64-icon.png" />
+    <Content Include="Images\Jewelry-Making.jpg" />
+    <Content Include="Images\moon-phases-background.jpg" />
+    <Content Include="Images\Palmistry.jpg" />
     <Content Include="Images\palmistryintro.jpg" />
     <Content Include="Images\pexels-archie-binamira-1187317.jpg" />
+    <Content Include="Images\Tarot.jpg" />
     <Content Include="Images\twitter-64-icon.png" />
     <Content Include="Stylesheets\Stylesheet1.css" />
     <Content Include="Team.html" />

@@ -1,7 +1,7 @@
 ﻿body {
 }
 
-
+/*ALL - Header*/
 header {
     background-color: background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ff7c00+79,ff7f04+100 */
     background: rgb(255,183,107); /* Old browsers */
@@ -11,10 +11,28 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-header h3 {
-    font-style: italic;
+header img {
+    float: left;
 }
 
+header h1 {
+    margin: 4px 0px 2px 150px;
+    font-size: 3em;
+}
+
+header h3 {
+    font-style: italic;
+    margin: 4px 0px 0px 400px;
+}
+
+div.iconsHeader {
+    margin: 20px 8px 8px 8px;
+    float: right;
+    width: 250px;
+    text-align: justify;
+}
+
+/*ALL - Nav*/
 nav a {
     font-weight: bold;
     text-decoration: none;
@@ -52,31 +70,50 @@ nav ul li a {
     display: block
 }
 
-.headingStyle {
-    font-size: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+/*ALL - Background*/
+body {
+    background: url(/Images/moon-phases-background.jpg) repeat-y center center fixed;
+    background-size: cover;
+    margin: 0;
 }
 
+/*intro - About Us*/
 #aboutUs img {
     float: left;
     width: 20%;
     height: auto;
 }
 
-h3#aboutUs {
+#aboutUs h3 {
+    font-size: 2em;
     float: right;
     width: 78%;
-    height: auto;
-    margin-left: 5px;
+    margin-top: 2px;
+    margin-left: 1px;
     margin-right: 8px;
+    margin-bottom: 4px;
+    text-decoration: underline;
 
-}p#aboutUs {
+}#aboutUs p {
     float: right;
-    width: 78%;
+    width: 72%;
     height: auto;
-    margin-left: 5px;
-    margin-right: 8px;
+    margin-left: 13px;
+    margin-right: 50px;
+}
+
+ article.spaciousTopMargin {
+     margin-top: 300px;
+ }
+
+/*intro - Why Choose Us*/
+.headingStyle {
+    margin: 0px;
+}
+
+h1.headingStyle {
+    text-align: center;
+    font-size: 3em;
 }
 
  .topSet {
@@ -97,12 +134,10 @@ h3#aboutUs {
      height: auto;
  }
 
- .topSet p {
-     float: right;
-     width: 45%;
-     height: auto;
-     margin-right: 8px;
- }
+.topSet p {
+    float: right;
+    width: 45%;
+}
 
  .bottomSet img {
      float: right;
@@ -110,17 +145,161 @@ h3#aboutUs {
      height: auto;
  }
 
- .bottomSet p {
-     float: left;
-     width: 45%;
-     height: auto;
-     margin-left: 8px;
- }
+.bottomSet p {
+    width: 45%;
+}
 
 .clear {
     clear: both;
 }
 
+/*Classes*/
+
+.descriptionsTop, .descriptionsBottom {
+    background-color: silver;
+}
+
+.descriptionsTop h1 {
+    text-align: center;
+}
+
+.descriptionsBottom h1 {
+    text-align: center;
+}
+
+.descriptionsTop, .descriptionsBottom p1 {
+    text-align: left;
+}
+
+/*.imagesTop div.verticalBlock1 {
+/*    float: left;
+/*    width: 25%;
+/*}
+/*
+/*.imagesTop div.verticalBlock2 {
+/*    float: left;
+/*    width: 25%;
+/*}
+/*
+/*.imagesTop div.verticalBlock3 {
+/*    float: right;
+/*    width: 25%;
+/*}*/
+
+section.imagesTop {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+div.verticalBlock1 {
+    width: 235px;
+    float: left;
+    margin-left: 20em;
+    margin-right:5px;
+}
+
+div.verticalBlock2 {
+    width: 235px;
+    float:left;
+}
+
+div.verticalBlock3 {
+    width: 235px;
+    float: left;
+    margin-left: 5px;
+}
+
+section.descriptionsTop {
+    width: 70%;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+}
+
+section.imagesBottom {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+section.descriptionsBottom {
+    width: 70%;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+}
+
+div.descriptionsTop {
+    width: 235px;
+    height: auto;
+    align-content: center;
+    align-self: center;
+}
+
+div.descriptionsBottom {
+    width: 235px;
+    height:auto;
+    align-content: center;
+    align-self: center;
+}
+
+.desriptionsTop .verticalBlock1 div {
+    width: 235px;
+}
+.desriptionsTop .verticalBlock2 div {
+    width: 235px;
+}
+.desriptionsTop .verticalBlock3 div {
+    width: 235px;
+}
+
+/*.verticalBlock1 {
+/*    border-left: ridge;
+/*    border-right: ridge;
+/*    border-collapse: collapse;
+/*}
+/*
+/*.verticalBlock2 {
+/*    border-left: ridge;
+/*    border-right: ridge;
+/*    border-collapse: collapse;
+/*}
+/*
+/*.verticalBlock3 {
+/*    border-left: ridge;
+/*    border-right: ridge;
+/*    border-collapse: collapse;
+/*}*/
+
+
+
+/*Contact - Body*/
+header.contactUs {
+    width: 50em;
+}
+.contactUs h1 {
+    text-align: center;
+    background-color: silver;
+    width: 500px;
+    font-size: 3em;
+}
+.contactUs h2 {
+    background-color: black;
+    color: silver;
+    font-size: 2em;
+    width: 500px;
+    /*margin: 0;*/
+}
+div.contactCenter {
+    position: relative;
+    left: 30%;
+}
+h2.address {
+    margin-bottom: 40px;
+}
+
+/*ALL - Articles Background*/
 article {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#98bede+0,deefff+56 */
     background: rgb(152,190,222); /* Old browsers */
@@ -130,14 +309,7 @@ article {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98bede', endColorstr='#deefff',GradientType=0 ); /* IE6-9 */
 }
 
-h3.headingStyle {
-    text-decoration: underline;
-}
-
-h1.headingStyle {
-    text-align: center;
-}
-
+/*ALL - Footer*/
 footer {
     background-color: background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ff7c00+79,ff7f04+100 */
     background: rgb(255,183,107); /* Old browsers */
@@ -160,5 +332,5 @@ footer h4 {
 div.iconsFooter {
     margin: 8px;
     float: right;
-    width: 300px;
+    width: 250px;
 }
