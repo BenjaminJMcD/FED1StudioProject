@@ -16,7 +16,7 @@ header img {
 
 header h1 {
     margin: 4px 0px 2px 150px;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 header h3 {
@@ -28,8 +28,9 @@ div.iconsHeader {
     margin: 20px 8px 8px 8px;
     float: right;
     width: 250px;
-    text-align: justify;
 }
+
+
 
 /*ALL - Nav*/
 nav a {
@@ -158,6 +159,7 @@ h1.classesHeader {
     text-align: center;
     font-size: 4em;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .descriptionsTop, .descriptionsBottom {
@@ -191,11 +193,11 @@ h1.classesHeader {
 /*    width: 25%;
 /*}*/
 
-section.imagesTop {
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-}
+/*section.imagesTop {
+/*    width: 100%;
+/*    text-align: center;
+/*    display: inline-block;
+/*}*/
 
 div.verticalBlock1 {
     width: 235px;
@@ -305,6 +307,48 @@ tbody tr {
     border-collapse: collapse;
 }
 
+/*Team*/
+
+#htmlLeftColumn {
+    margin-right: 12%;
+    border-right: 3px inset forestgreen;
+    display: inline;
+}
+
+#htmlRightColumn {
+    width: 12%;
+    float: right;
+    background: #B4BFAE;
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+img {
+    float: left;
+    margin-left: 2%;
+    /*margin-bottom: 3%;*/
+}
+
+p {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-left: 3%
+}
+
+h3 {
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+}
+
+div.clear {
+    border: ridge;
+}
 
 
 /*Contact - Body*/
@@ -334,12 +378,11 @@ h2.address {
 
 /*ALL - Articles Background*/
 article {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#98bede+0,deefff+56 */
-    background: rgb(152,190,222); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(152,190,222,1) 0%, rgba(222,239,255,1) 56%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(152,190,222,1) 0%,rgba(222,239,255,1) 56%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(152,190,222,1) 0%,rgba(222,239,255,1) 56%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98bede', endColorstr='#deefff',GradientType=0 ); /* IE6-9 */
+    background: #fcfff4;
+    background: -moz-linear-gradient(left, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -webkit-linear-gradient(left, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%);
+    background: linear-gradient(to right, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 );
 }
 
 /*ALL - Footer*/
